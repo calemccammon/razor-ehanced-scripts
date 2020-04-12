@@ -6,7 +6,7 @@ if skill < 120.0:
     Target.WaitForTarget(10000)
     Target.Self()
     manaCost = 50
-    Misc.Pause(5000)
+    Misc.Pause(2250)
 
 if Player.Mana < manaCost:
     Player.UseSkill('Meditation')
