@@ -1,0 +1,1 @@
+Spells.CastMysticism('Stone Form')

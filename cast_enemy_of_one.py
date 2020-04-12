@@ -1,0 +1,1 @@
+Spells.CastChivalry('Enemy Of One')
