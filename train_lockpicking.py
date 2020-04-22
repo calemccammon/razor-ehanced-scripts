@@ -7,9 +7,9 @@ if pick != None:
     Items.UseItem(pick)
     Target.WaitForTarget(5000, False)
     Target.TargetExecute(container)
-    Misc.Pause(1000)
-    if Journal.Search("quickly yields"):
+    Misc.Pause(1250)
+    if Journal.Search("quickly yields") or Journal.Search("appear to be locked"):
         Items.UseItem(key)
         Target.WaitForTarget(5000, False)
         Target.TargetExecute(container)
-        Misc.Pause(1000)
+        Misc.Pause(1250)
